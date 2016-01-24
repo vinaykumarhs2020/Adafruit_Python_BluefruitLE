@@ -1,3 +1,12 @@
+## Modifications:
+Changed UUID's in uart service to work with DFRobot's BLElink module. 
+UUID Details:
+UART_SERVICE_UUID = 0000dfb0-0000-1000-8000-00805f9b34fb
+TX_CHAR_UUID      = 0000dfb1-0000-1000-8000-00805f9b34fb
+RX_CHAR_UUID      = 0000dfb1-0000-1000-8000-00805f9b34fb
+
+
+
 # Adafruit Python BluefruitLE
 
 Python library to simplify access to Bluefruit LE (Bluetooth low energy) devices and services on Linux and Mac OSX.  Hides all the platform-specific BLE code (using BlueZ on Linux and CoreBluetooth on Mac OSX) and provides a simpler syncronous BLE API which is great for scripts and other automated tasks using BLE.  For example you can create a program to read and write data (like sensor readings) with a Bluefruit LE device in UART mode.
