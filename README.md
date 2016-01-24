@@ -1,9 +1,11 @@
 ## Modifications:
 Changed UUID's in uart service to work with DFRobot's BLElink module. 
+
 UUID Details:
-UART_SERVICE_UUID = 0000dfb0-0000-1000-8000-00805f9b34fb
-TX_CHAR_UUID      = 0000dfb1-0000-1000-8000-00805f9b34fb
-RX_CHAR_UUID      = 0000dfb1-0000-1000-8000-00805f9b34fb
+
+- UART_SERVICE_UUID = 0000dfb0-0000-1000-8000-00805f9b34fb
+- TX_CHAR_UUID      = 0000dfb1-0000-1000-8000-00805f9b34fb
+- RX_CHAR_UUID      = 0000dfb1-0000-1000-8000-00805f9b34fb
 
 
 
